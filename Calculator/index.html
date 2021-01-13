@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 230px 0px;
+        }
+
+        .page-heading {
+            color: slategray;
+            font-size: 2rem;
+            font-weight: bold;
+            padding: 5px;
+        }
+
+        .inputDiv{
+            margin: 10px 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="page-heading">Calculator</h1>
+
+    <form action="/" method="POST">
+        <div class="inputDiv">
+            <label for="first_num">First Number: </label>
+            <input type="text" class="calc_input" name="first_num" placeholder="Enter first input">
+        </div>
+        <div class="inputDiv">
+            <label for="second_num">Second Number: </label>
+            <input type="text" class="calc_input" name="second_num" placeholder="Enter second input">
+        </div>
+        <button type="submit" class="submitBtn" name="submit">Calculate</button>
+    </form>
+</body>
+</html>

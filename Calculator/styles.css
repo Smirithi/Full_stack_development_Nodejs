@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+.page-heading {
+    color: slategray;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.inputDiv{
+    margin: 10px 0px;
+}
