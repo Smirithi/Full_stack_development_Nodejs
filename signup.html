@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter || Ullassa</title>
+
+    <!--Google Fotns-->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Lobster&family=Source+Sans+Pro:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <!--Bootstrap scripts-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!--Css Stylesheets-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--FontAwesome Scripts-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+
+<body>
+    <div id="bg-img"></div>
+
+    <div class="logo d-flex justify-content-center">
+        <i class="fas fa-compass fa-3x brandLogo"></i>
+        <h3 class="brandName">Welcome To Ullassa!</h3>
+    </div>
+
+    <blockquote class="quote">
+        Awaken your inner <em>WanderLust</em>...
+    </blockquote>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <div class="card card-signup mx-auto">
+                    <div class="card-header">
+                        <h4 class="signup-title text-center">Subscribe To Newsletter</h4>
+                    </div>
+                    <div class="card-body flex-row">
+                        <form id="signup-form" action="/" method="POST">
+                            <div class="form-label-group">
+                                <input type="text" class="form-control" id="nameInput" name="firstName" placeholder="FirstName" autofocus>
+                            </div>
+                            <div class="form-label-group">
+                                <input type="text" class="form-control" id="nameInput" name="lastName" placeholder="LastName">
+                            </div>
+                            <div class="form-label-group">
+                                <input type="email" class="form-control" id="emailInput" name="userEmail" placeholder="Email">
+                            </div>
+                            <button class="btn btn-outline-danger btn-lg" type="submit" name="submit">Sign Up</button>
+                        </form>
+                    </div>
+                    <div class="card-footer otherLinks">
+                        <p id="signUpOptions">Or signUp using the social media links: </p>
+                        <div class="signupLinks">
+                            <a href="https://en-gb.facebook.com/login/" target="_blank">
+                                <i class="fab fa-facebook fa-2x facebookLink"></i>
+                            </a>
+                            <a href="https://www.google.com/intl/en_in/gmail/about/" target="_blank">
+                                <i class="fab fa-google-plus fa-2x gmailLink"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body{
+    text-align: center;
+    background-color: #cd5d7d;
+    background: linear-gradient(to right, #ff8585, #fdcfdf);
+}
+
+.logo{
+    padding-top: 20px;
+}
+
+.brandLogo{
+    padding-right: 10px;
+    color: #8f384d;
+}
+
+.brandName{
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    color: #8f384d;
+}
+
+.container{
+    margin-top: 75px;
+}
+
+.signup-title{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.card-signup{
+    width: 90%;
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#nameInput, #emailInput{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+
+.btn{
+    margin-top: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    border-radius: 2rem;
+}
+
+.quote{
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+    color: #8f384d;
+    position: relative;
+    padding: 0.5em 2em 0.5em 3em;
+}
+
+/* .quote:before {
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 350px;
+    content: "\201C";
+}
+.quote:after {
+    position: absolute;
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right: 350px;
+    bottom:-0.5em;
+    content: "\201D";
+} */
+
+#signup-form input{
+    margin: 7px auto auto auto;
+    width: 350px;
+    height: auto;
+    border-radius: 2rem;
+}
+
+#signUpOptions{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.facebookLink{
+    color: blue;
+    margin-right: 0.5em;
+}
+
+.gmailLink{
+    color: red;
+    margin-left: 0.5em;
+}
